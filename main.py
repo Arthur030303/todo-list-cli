@@ -13,7 +13,7 @@ while True:
         print("\n==View Task==")
         if not tasks:
             print("There is no task.")
-        else: 
+        else:
             for index, task in enumerate(tasks, start = 1):
                 print(f"{index}. {task}")
     elif choice == "3":
